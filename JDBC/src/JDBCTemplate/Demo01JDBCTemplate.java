@@ -3,7 +3,7 @@ package JDBCTemplate;
 import Utils.JDBCUtils;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class JDBCTemplate {
+public class Demo01JDBCTemplate {
     public static void main(String[] args) {
         JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
         String sql = "update account set balance = 1000 where id = ?";

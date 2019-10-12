@@ -1,4 +1,6 @@
-package Jdbc;
+package domain;
+
+import java.util.Date;
 
 public class Emp {
     private int id;
